@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PAHMKV92B6zNwf+4aE58BUwxmzHjZhcU5SuYIhwFFpdMqCPYcbcctK+gb06sByOLAAsXMHT+bnLSGFCT+EzXqw==",
+  "success": true,
+  "projectFilePath": "C:\\temp\\CSCODE\\Library\\Library.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Brawlyx\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512"
+  ],
+  "logs": []
+}
