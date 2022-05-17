@@ -2,32 +2,22 @@
 using System;
 using Library;
 
-
-TestFile p = new TestFile
+bool power=true;
+while (power==true)
 {
-  //  FirstName = "Tim",
-    //LastName = "Bob",
-   // Age = 20
+    System.Console.WriteLine("THIS IS THE GREATEST ATM EVER");
+    System.Console.WriteLine("WHAT IS YOUR SELECTION?");
+    System.Console.WriteLine("1) Create Account");
+    System.Console.WriteLine("2) Make Withdrawal");
+    System.Console.WriteLine("3) Make Deposit");
+    string v = System.Console.ReadLine();
+    if (v=="1")
+    {
+        System.Console.WriteLine("Create An Account -");
+        System.Console.WriteLine("What is your name ?");
+        string name = System.Console.ReadLine(name);
+        var account = new BankAccount(0, name, 0);
+        
+    };
 };
-
-// System.Console.WriteLine($"{ p.FirstName } { p.LastName } { p.Age }");
-
-Console.WriteLine("Hello, World!");
-System.Console.WriteLine("The End ");   
-
-System.Console.WriteLine("WELCOME TO THE GREATEST GIVE AWAY YOU EVER SAW");
-System.Console.WriteLine("CHOOSE 1 2 OR 3");
-    if (Console.ReadLine() == "1")
-    {
-        var message = "You just won mate";
-        System.Console.WriteLine(message);
-    }
-    else 
-    {
-        System.Console.WriteLine("Error");
-    }
-Console.ReadLine();
-
-
-
-
+System.Console.WriteLine("thanks");
